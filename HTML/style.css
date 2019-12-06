@@ -1,0 +1,55 @@
+h1{
+	text-align: center;
+	font-size: 39px;
+	font-family: 'Fascinate Inline', cursive;
+	margin-bottom: 20px;
+	margin-top: 0px;
+	padding-top: 20px;
+	color:#A811E0;
+
+}
+body{
+	margin:0px;
+	background:#A811E0;
+	text-align: center;
+	font-size: 100px;
+}
+
+.flex{
+
+	width: 100%;
+	height: calc((1080px/2)/16 *9 - 20px);
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+.box{
+	background:#1927B3;
+	width: 80%;
+	margin: 0 auto;
+	box-shadow: 0 0 20px 3px rgba(0,0,0,0.9);
+	padding-bottom: 70px;
+}
+a{
+	display: block;
+	width: calc(100%/2 - 20px);
+	height: calc((1080px/2)/16 *9 - 20px);
+	border: 5px solid white;
+	transition: transform 0.4s ease;
+	color: #D114CF;
+}
+
+a div{
+	width: 100%;
+	height: 100%;
+	
+}
+a:hover{
+	transform: scale(1.2);
+	border: 5px solid white;
+	box-shadow: 0px 0px 25px 5px  rgba(0,0,0,0.3)
+}
+a body{
+	color: #D114CF;
+}
+
