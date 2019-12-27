@@ -1,0 +1,109 @@
+@media screen and (max-width: 728px){
+	header{
+		height: auto;
+	}
+	nav{
+		display: none;
+	}
+	.cont div{
+		width: 100%;		
+	}
+	.cont{
+		flex-direction: column;
+    	height: auto;
+    	text-align: center;
+
+	}
+	.cont img{
+		width: 40%;
+		margin-top: 0px;
+	}
+	body{
+		width: 90%;
+		margin: 0 auto;
+	}
+	.image1{
+		display: none;
+	}
+	h1{
+		font-size: 4.73vw;
+		text-align: center;
+		margin-bottom: 0;
+	}
+	.image2{
+		display: inline-block;
+		width: 1.56vw;
+		margin-left: 0;
+	}
+	a{
+		display: block;
+		margin: 0 auto;
+		margin-bottom:  6.3vw;
+    	font-size: 2.7vw;
+    	line-height: 8.125vw;
+    	width: 27vw;
+	}
+	.cont p{	
+		width: 69%;
+		margin: 0 auto;
+		font-size: 3vw;
+		margin-bottom: 6vw;
+	}
+	.menu-item:nth-child(1){ 
+		margin-bottom: 0px;
+	}
+	h2{
+		font-size: 8.6vw;
+		margin-top: 1.07vw;
+		text-align: center;
+	}
+	.flex p{
+		font-size: 3vw;
+		width: 90%;
+		margin: 0 auto;
+		margin-top: 4vw;
+		margin-bottom: 0vw;
+	}
+	.flex{
+		display: flex;
+		flex-direction: column;
+	}
+	.flex1 img{
+		display: none;
+	}
+	.offer{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		margin-top: 2vw;
+	}
+	.offer div{
+		margin-right: 60%;
+		margin-left: 16%;
+		width: 60vw;
+		height: 30vw;
+		margin-top: 2vw;
+	}
+	#two{
+		flex-direction: column;
+    	height: auto;
+    	text-align: center;
+    	justify-content: center;
+	}
+	.offer img{
+		width: 16vw;
+		height: 7vh;
+	}
+	.offer p{
+		font-size: 2.7vw;
+	}
+	#third h2{
+		font-size: 10vw;
+		text-align: center;
+	}
+	.brend{
+		width: 20%;
+	
+	}
+	}
+	/*471 570*/
