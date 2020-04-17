@@ -1,0 +1,50 @@
+@media screen and (max-width: 728px){
+	header{
+		height: auto;
+	}
+	nav{
+		width: 100vw;
+		height: 25.2vh;
+		display: flex;
+		height: 6.3vw;
+		flex-direction: row;
+		align-items: center;
+	}
+	nav a{
+		color: #FFFFFF;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 3vw;
+		line-height: 1.6vw;
+		margin-right: 4.6vw;
+		margin-top: 5.8%;
+	}
+	.p1{
+		margin-left: 6vw;
+	}
+	a:hover{
+		font-size: 3.2vw;
+		transition: all 0.4s ease;
+}
+	nav img{
+		display: flex;
+		width: 30vw;
+		height: 18vw;
+	}
+	.cont1{
+		display: flex;
+		margin-left: 4%;
+		width: 88%;
+		height: 85vh;
+		margin-top: 7.5vw;
+		border: solid #1B1987 0.4vw;
+		background: url(Belgium-SOC1.jpg) no-repeat center /cover;
+	}
+
+	.cont{
+		display: none;
+	}
+	
+
+	/*471 570*/
